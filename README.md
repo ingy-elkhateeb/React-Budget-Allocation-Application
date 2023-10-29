@@ -1,76 +1,30 @@
 # My Budget planner
 
-This React Budget Allocation Application was developed as a project during my course Journey "Developing Front-End Apps with React",offered by IBM. It is a React application that helps an individual manage his Budget by adding and editing an intial Budget, Adding Expenses like shopping, appointments,etc and specify the expense amount. After each expense, the application calculates and displays the remaining budget for better experience.
+This React Budget Allocation Application was developed as a project during my course Journey "Developing Front-End Apps with React",offered by IBM. It is a React application that helps an individual manage his Budget by adding and editing an initial Budget, Adding Expenses like shopping, appointments,etc and specify the expense amount. After each expense, the application calculates and displays the remaining budget for better experience.
 
 ## My Budget planner Screen
 ![screenshot1](/budget%20planner.PNG)
+<br>
+
+## Add Expense
+You can manage your expenses in the budget planner application by adding new expenses as long as it doesn't exceeds the budget. When a new expense is added the application automatically calculates the spent and the remaining amounts and display them. Here is a screenshot showing the add expense process before and after.
+<br>
+### Before adding an Expense
+![before](/add%20expense.PNG)
+### After adding an Expense
+![after](/added%20expense.PNG)
+<br>
+## Edit Your Budget
+To make the application more flexible I developed an editable Budget where you can edit your budget and the remaining value will be calculated accordingly.<br>
+### Before editing the budget
+![before](/edit%20budget.PNG)
+### After editing the budget
+![after](/edited%20budget.PNG)
+<br>
+## Delete an Expense
+Also for more flexability, you can delete an expense and the spent and remaining amounts will be calculated and displayed accordingly.In this Screenshot I deleted the groceries expense which costed $200 and hence the spent decreased by 200 while the remaining increased by 200. <br>
+### Deleted Expense
+![deleted](/deleted%20grocieries.PNG)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
