@@ -3,7 +3,7 @@
 This React Budget Allocation Application was developed as a project during my course Journey "Developing Front-End Apps with React",offered by IBM. It is a React application that helps an individual manage his Budget by adding and editing an intial Budget, Adding Expenses like shopping, appointments,etc and specify the expense amount. After each expense, the application calculates and displays the remaining budget for better experience.
 
 ## My Budget planner Screen
-[Create React App](./budget%20planner.PNG)
+![screenshot1](/budget%20planner.PNG)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
